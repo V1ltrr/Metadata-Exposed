@@ -50,45 +50,14 @@ Run the script by launching :
 ```bash
 python metadata_exposed.py
 ```
-### Steps
-1. Select the fuzzing mode:  
-   - Default built-in list  
-   - Custom wordlist from `wordlist.txt`  
-   - Exit the program
-     
-2. Select the display mode :  
-   - Extended mode: view all tested URLs and their HTTP codes  
-   - Reduced mode: view only a summary (200 & 403) with a progress bar
-     
-2. Enter the target URL:  
-   - Must include the protocol (`http://` or `https://`)  
-   - No spaces allowed  
-   - Example: `https://example.com/admin`
 
 ## Project Structure
 ```text
-url-breaker/
+matadata-exposed/
 ├── LICENCE              # This documentation file
 ├── README.md            # This documentation file
-├── url_breaker.py       # Main script
-├── wordlist.txt         # Optional custom variants file
+├── metadata_exposed.py  # Main script
 ```
-
-## Internal Details
-
-- Uses `requests` for HTTP requests.  
-- URL variants are built using `urllib.parse.urljoin` to ensure valid URLs.  
-- Handles network exceptions gracefully.  
-- Uses `colorama` for colored terminal output.  
-- Interactive CLI with `print()` and `input()` for user interaction.
-- Uses concurrent.futures.ThreadPoolExecutor for concurrent requests.
-
-## Limitations and Future Work
-
-- Current fuzzing is based on a static list; future improvements could include dynamic variant generation.   
-- Content comparison to detect significant differences between responses.  
-- Exporting results to CSV or JSON.  
-- Supporting other HTTP methods like POST or PUT.
 
 ## Contributing
 Contributions are welcome! To contribute :
