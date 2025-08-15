@@ -15,6 +15,8 @@
   <img src="https://img.shields.io/badge/Written%20In-Python-darkcyan?style=flat-square">
 </p>
 
+---
+
 ## Description
 
 **Metadata Exposed** is a lightweight Python tool designed to get the more informations that we can get from a specific file.  
