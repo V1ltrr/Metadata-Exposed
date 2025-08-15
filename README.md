@@ -1,7 +1,7 @@
 <h1 align="center">  Metadata Exposed </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-0.1-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/v1ltrr/Metadata-Exposed?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/v1ltrr/Metadata-Exposed?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/v1ltrr/Metadata-Exposed?color=red&style=for-the-badge">
